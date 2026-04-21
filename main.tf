@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "bindu_kothi" {
-  ami           = "ami-0e12ffc2dd465f6e4"
+  ami           = "ami-0aa31b568c1e8d622"
   instance_type = "t3.small"
 
   tags = {
