@@ -4,7 +4,7 @@ provider "aws" {
 
 resource "aws_instance" "bindu_kothi" {
   ami           = "ami-0e12ffc2dd465f6e4"
-  instance_type = "t3.micro"
+  instance_type = "t3.small"
 
   tags = {
     Name = "Terraform"
